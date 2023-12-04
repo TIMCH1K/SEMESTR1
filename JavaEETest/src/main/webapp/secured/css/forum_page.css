@@ -1,0 +1,68 @@
+body {
+    background: rgba(248,255,241,1);
+    height: 100%;
+    weight: 100%;
+}
+.header__icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: rgb(210,251,223);
+    background: linear-gradient(180deg, rgba(210,251,223,1) 35%, rgba(248,255,241,1) 100%);
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__logo{
+    height: 10rem;
+    width: 10rem;
+}
+.header__ForumTopics {
+    color: #01233c;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: sans-serif;
+    font-size: 6.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.topics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topic {
+    cursor: pointer;
+    border: 1px solid #164C7D;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    background-color: #f0f0f0;
+}
+
+.topic__title {
+    font-size: 1.5rem;
+    color: #164C7D;
+}
+
+.topic__author {
+    font-size: 1rem;
+    color: #555;
+}
+
+.topic__snippet {
+    font-size: 1rem;
+    color: #999;
+}
+.main__post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
